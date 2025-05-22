@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: pastel --default, aqua;
+  themes: pastel --default, night;
   prefix: "du-";
   logs: true;
 }
