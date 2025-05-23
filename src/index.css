@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: emerald --default, night;
+  themes: winter --default, night;
   prefix: "du-";
   logs: true;
 }

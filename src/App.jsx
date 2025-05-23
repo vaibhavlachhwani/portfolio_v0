@@ -9,6 +9,7 @@ function App() {
       <div className="bg-base-200">
         <Navbar />
         <Hero />
+        <DarkThemeComponent child={<Hero></Hero>}></DarkThemeComponent>
       </div>
     </>
   );
