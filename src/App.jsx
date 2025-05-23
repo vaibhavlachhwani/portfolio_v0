@@ -1,9 +1,17 @@
 import "./App.css";
-import AltPageTest from "./components/AltPageTest";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 import DarkThemeComponent from "./components/DarkThemeComponent";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <div className="bg-base-200">
+        <Navbar />
+        <Hero />
+      </div>
+    </>
+  );
 }
 
 export default App;
