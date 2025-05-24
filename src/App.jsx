@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import DarkThemeComponent from "./components/DarkThemeComponent";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Hero />
         <DarkThemeComponent child={<About />}></DarkThemeComponent>
         <Skills />
-        <DarkThemeComponent />
+        <DarkThemeComponent child={<Projects />} />
       </div>
     </>
   );
