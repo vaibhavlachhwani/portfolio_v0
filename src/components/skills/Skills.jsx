@@ -67,7 +67,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="">
+    <section id="skills">
       <SectionTitle text={"Tech Stack"} />
       <div className="mx-auto max-w-screen-lg du-tabs du-tabs-lift m-24">
         <label className="du-tab">
@@ -106,6 +106,6 @@ export default function Skills() {
           <SkillComponent skills={tp} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

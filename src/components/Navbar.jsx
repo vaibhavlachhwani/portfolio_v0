@@ -6,7 +6,7 @@ export default function Navbar() {
       {/* Change this */}
       {/* logo */}
       <div className="flex-1">
-        <a href="https://www.google.com">
+        <a href="#hero">
           <img src={logo} alt="logo" className="inline aspect-auto h-10" />
         </a>
       </div>
