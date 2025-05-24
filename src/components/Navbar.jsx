@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 
 export default function Navbar() {
   return (
-    <div className="du-navbar mx-auto rounded-full bg-base-100 max-w-screen-lg sticky top-2 z-50">
+    <div className="du-navbar mx-auto rounded-full bg-base-100/60 max-w-screen-lg sticky top-2 z-50 backdrop-blur-xs">
       {/* Change this */}
       {/* logo */}
       <div className="flex-1">
