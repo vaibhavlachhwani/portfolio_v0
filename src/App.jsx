@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import DarkThemeComponent from "./components/DarkThemeComponent";
+import About from "./components/about/About";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <div className="bg-base-200">
         <Navbar />
         <Hero />
-        <DarkThemeComponent child={<Hero></Hero>}></DarkThemeComponent>
+        <DarkThemeComponent child={<About />}></DarkThemeComponent>
       </div>
     </>
   );
