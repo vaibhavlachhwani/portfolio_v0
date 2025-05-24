@@ -33,7 +33,7 @@ export default function Hero() {
             </div>
 
             <p className="py-2 my-1 leading-loose">
-              I'm a Full-Stack Developer based in India, currently pursuing my
+              I'm a Full Stack Developer based in India, currently pursuing my
               B.Tech in Computer Science and Engineering at IIIT Kota.
               Passionate about building scalable, real-world web apps that solve
               meaningful problems.
@@ -41,6 +41,8 @@ export default function Hero() {
             <div className="flex flex-row space-x-8">
               <a
                 href="https://drive.google.com/file/d/1LRtWpYt2kJBiIuRdZkckUxyyjkw58OmQ/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="du-btn du-btn-primary"
               >
                 My Resume
