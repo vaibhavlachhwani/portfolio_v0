@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 
 export default function Navbar() {
   return (
-    <div className="du-navbar mx-auto du-rounded-box bg-base-100 max-w-screen-lg sticky top-0 z-50">
+    <div className="du-navbar mx-auto rounded-full bg-base-100 max-w-screen-lg sticky top-2 z-50">
       {/* Change this */}
       {/* logo */}
       <div className="flex-1">
@@ -14,16 +14,16 @@ export default function Navbar() {
       <div className="flex-none">
         <ul className="du-menu du-menu-horizontal px-1">
           <li>
-            <a>About Me</a>
+            <a href="#about">About Me</a>
           </li>
           <li>
-            <a>My Skills</a>
+            <a href="#skills">My Skills</a>
           </li>
           <li>
-            <a>Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
