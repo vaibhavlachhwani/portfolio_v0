@@ -2,10 +2,10 @@ import { SectionTitle } from "../SectionTitle";
 import ProjectCardLeft from "./ProjectCardLeft";
 import ProjectCardRight from "./ProjectCardRight";
 
-import fraudshield from "../../assets/projects/fraudshield.png";
-import healconnect from "../../assets/projects/healconnect.png";
-import spamcache from "../../assets/projects/spamcache.png";
-import forum from "../../assets/projects/forum.png";
+import fraudshield from "../../assets/images/projects/fraudshield.png";
+import healconnect from "../../assets/images/projects/healconnect.png";
+import spamcache from "../../assets/images/projects/spamcache.png";
+import forum from "../../assets/images/projects/forum.png";
 
 export default function Projects() {
   return (

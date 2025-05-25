@@ -1,35 +1,35 @@
 import { SectionTitle } from "../SectionTitle";
 import SkillComponent from "./SkillComponent";
 
-import code from "../../assets/programming_languages.svg";
-import framework_svg from "../../assets/frameworks.svg";
-import database_svg from "../../assets/database.svg";
-import tool_svg from "../../assets/tools.svg";
+import code from "../../assets/images/skills/tab_icons/programming_languages.svg";
+import framework_svg from "../../assets/images/skills/tab_icons/frameworks.svg";
+import database_svg from "../../assets/images/skills/tab_icons/database.svg";
+import tool_svg from "../../assets/images/skills/tab_icons/tools.svg";
 
-import java from "../../assets/skills/languages/java.svg";
-import python from "../../assets/skills/languages/python.svg";
-import js from "../../assets/skills/languages/js.svg";
-import cpp from "../../assets/skills/languages/cpp.svg";
+import java from "../../assets/images/skills/languages/java.svg";
+import python from "../../assets/images/skills/languages/python.svg";
+import js from "../../assets/images/skills/languages/js.svg";
+import cpp from "../../assets/images/skills/languages/cpp.svg";
 
-import sb from "../../assets/skills/frameworks/spring-boot.svg";
-import hibernate from "../../assets/skills/frameworks/hibernate.svg";
-import node from "../../assets/skills/frameworks/nodejs.svg";
-import react from "../../assets/skills/frameworks/react.svg";
-import ex from "../../assets/skills/frameworks/expressjs.svg";
+import sb from "../../assets/images/skills/frameworks/spring-boot.svg";
+import hibernate from "../../assets/images/skills/frameworks/hibernate.svg";
+import node from "../../assets/images/skills/frameworks/nodejs.svg";
+import react from "../../assets/images/skills/frameworks/react.svg";
+import ex from "../../assets/images/skills/frameworks/expressjs.svg";
 
-import mysql from "../../assets/skills/db/mysql.svg";
-import mongo from "../../assets/skills/db/mongodb.svg";
-import pg from "../../assets/skills/db/postgresql.svg";
-import fb from "../../assets/skills/db/firebase.svg";
+import mysql from "../../assets/images/skills/db/mysql.svg";
+import mongo from "../../assets/images/skills/db/mongodb.svg";
+import pg from "../../assets/images/skills/db/postgresql.svg";
+import fb from "../../assets/images/skills/db/firebase.svg";
 
-import aws from "../../assets/skills/tools/aws.svg";
-import curl from "../../assets/skills/tools/curl.svg";
-import daisyui from "../../assets/skills/tools/daisyui.svg";
-import docker from "../../assets/skills/tools/docker.svg";
-import git from "../../assets/skills/tools/git.svg";
-import github from "../../assets/skills/tools/github.svg";
-import linux from "../../assets/skills/tools/linux.svg";
-import tailwindcss from "../../assets/skills/tools/tailwindcss.svg";
+import aws from "../../assets/images/skills/tools/aws.svg";
+import curl from "../../assets/images/skills/tools/curl.svg";
+import daisyui from "../../assets/images/skills/tools/daisyui.svg";
+import docker from "../../assets/images/skills/tools/docker.svg";
+import git from "../../assets/images/skills/tools/git.svg";
+import github from "../../assets/images/skills/tools/github.svg";
+import linux from "../../assets/images/skills/tools/linux.svg";
+import tailwindcss from "../../assets/images/skills/tools/tailwindcss.svg";
 
 export default function Skills() {
   const pl = [
@@ -71,7 +71,7 @@ export default function Skills() {
       <SectionTitle text={"Tech Stack"} />
       <div className="mx-auto max-w-screen-lg du-tabs du-tabs-lift m-24">
         <label className="du-tab">
-          <input type="radio" name="my_tabs_4" />
+          <input type="radio" name="my_tabs_4" defaultChecked />
           <img src={code} alt="" className="size-4 mx-3" />
           Programming Languages
         </label>
@@ -80,7 +80,7 @@ export default function Skills() {
         </div>
 
         <label className="du-tab">
-          <input type="radio" name="my_tabs_4" defaultChecked />
+          <input type="radio" name="my_tabs_4" />
           <img src={framework_svg} alt="" className="size-4 mx-3" />
           Frameworks & Libraries
         </label>

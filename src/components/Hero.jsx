@@ -1,4 +1,4 @@
-import hero_img from "../assets/vaibhav_lachhwani.png";
+import hero_img from "../assets/images/vaibhav_lachhwani/vaibhav_lachhwani.png";
 import { ReactTyped } from "react-typed";
 
 export default function Hero() {

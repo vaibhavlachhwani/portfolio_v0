@@ -1,7 +1,7 @@
-import linkedin_icon from "../../assets/icon-linkedin.svg";
-import github_icon from "../../assets/icon-github.svg";
-import school_icon from "../../assets/icon-school.svg";
-import email_icon from "../../assets/icon-email.svg";
+import linkedin_icon from "../../assets/images/social/icon-linkedin.svg";
+import github_icon from "../../assets/images/social/icon-github.svg";
+import school_icon from "../../assets/images/social/icon-school.svg";
+import email_icon from "../../assets/images/social/icon-email.svg";
 
 export default function SocialComponent() {
   const social_links = [
