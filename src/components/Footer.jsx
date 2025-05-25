@@ -18,6 +18,21 @@ export default function Footer() {
               <br />
               📍Bhopal, India
             </p>
+            <p>
+              Made with ❤️ using{" "}
+              <a className="underline" href="https://react.dev/">
+                React
+              </a>
+              ,{" "}
+              <a className="underline" href="https://tailwindcss.com/">
+                tailwindcss
+              </a>
+              , and,{" "}
+              <a className="underline" href="https://daisyui.com/">
+                daisyUI
+              </a>
+              .
+            </p>
             <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
           </aside>
           <nav>
