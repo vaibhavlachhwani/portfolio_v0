@@ -29,9 +29,9 @@ export default function SocialComponent() {
 
   return (
     <>
-      <div className="flex flex-row space-x-8 items-center justify-center">
+      <div className="flex flex-row space-x-4 lg:space-x-8 items-center justify-center">
         {social_links.map((item, index) => (
-          <div key={index} className="size-18">
+          <div key={index} className="size-16 lg:size-18">
             <a
               href={item.url}
               target="_blank"
@@ -41,7 +41,7 @@ export default function SocialComponent() {
               <img
                 src={item.icon}
                 alt={item.name + " icon"}
-                className="size-8"
+                className="size-6 lg:size-8"
               />
               <p className="mt-1 text-center">{item.name}</p>
             </a>

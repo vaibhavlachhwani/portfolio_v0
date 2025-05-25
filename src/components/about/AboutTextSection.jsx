@@ -4,7 +4,7 @@ export default function AboutTextSection() {
       <h1 className="text-xl text-left font-bold text-secondary">
         Hey! 👋 I'm Vaibhav
       </h1>
-      <div className="text-left text-md">
+      <div className="text-justify lg:text-justify text-md">
         <p className="pt-6">
           I’m a Full Stack Developer currently pursuing my B.Tech in Computer
           Science and Engineering at IIIT Kota (Class of ’27). My fascination
