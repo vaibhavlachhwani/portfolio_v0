@@ -7,7 +7,7 @@ import instagram from "../assets/images/social/icon-instagram.svg";
 export default function Footer() {
   return (
     <>
-      <div className="w-full aspect-[4.5/1] bg-[url('src/assets/images/wave_dividers/waveFooter.svg')] bg-no-repeat bg-cover bg-top"></div>
+      <div className="w-full aspect-[12/1] bg-[url('src/assets/images/wave_dividers/waveFooter.svg')] bg-no-repeat bg-cover bg-top"></div>
 
       <div data-theme="night">
         <footer className="du-footer mx-auto max-w-screen-lg du-footer-horizontal du-footer-center bg-base-100 text-base-content p-10">
