@@ -1,7 +1,7 @@
-export default function DarkThemeComponent({ child }) {
+export default function DarkThemeComponentAlt({ child }) {
   return (
     <>
-      <div className="w-full aspect-[4.5/1] bg-[url('src/assets/waveTop1.svg')] bg-no-repeat bg-cover bg-top"></div>
+      <div className="w-full aspect-[4.5/1] bg-[url('src/assets/waveTop2.png')] bg-no-repeat bg-cover bg-top"></div>
 
       <div data-theme="night">{child}</div>
 
