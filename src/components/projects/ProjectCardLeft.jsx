@@ -3,7 +3,7 @@ export default function ProjectCardLeft(props) {
     <>
       <div
         data-theme="winter"
-        className="du-card du-card-xl lg:du-card-side bg-base-100 my-12"
+        className="du-card flex-col-reverse du-card-md lg:du-card-lg mx-8 lg:mx-auto lg:du-card-side bg-base-100 my-12"
       >
         <div className="du-card-body">
           <h2 className="du-card-title">{props.title}</h2>
@@ -22,7 +22,11 @@ export default function ProjectCardLeft(props) {
           </div>
         </div>
         <figure>
-          <img src={props.img_src} alt="Project Image" />
+          <img
+            className="du-rounded-box"
+            src={props.img_src}
+            alt="Project Image"
+          />
         </figure>
       </div>
     </>

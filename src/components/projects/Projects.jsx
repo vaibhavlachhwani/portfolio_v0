@@ -10,7 +10,7 @@ import forum from "../../assets/images/projects/forum.png";
 export default function Projects() {
   return (
     <>
-      <section id="projects">
+      <section id="projects" className="pt-20">
         <SectionTitle text={"Projects"} />
         <div className="py-12 max-w-screen-lg mx-auto">
           <ProjectCardRight

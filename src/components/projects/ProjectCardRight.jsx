@@ -3,10 +3,14 @@ export default function ProjectCardRight(props) {
     <>
       <div
         data-theme="winter"
-        className="du-card du-card-xl lg:du-card-side bg-base-100"
+        className="du-card mx-8 lg:mx-auto lg:du-card-side bg-base-100"
       >
         <figure>
-          <img src={props.img_src} alt="Project Image" />
+          <img
+            className="du-rounded-box"
+            src={props.img_src}
+            alt="Project Image"
+          />
         </figure>
         <div className="du-card-body">
           <h2 className="du-card-title">{props.title}</h2>
