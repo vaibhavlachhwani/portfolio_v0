@@ -4,7 +4,7 @@ export default function NavbarMobile() {
   return (
     <div className="du-navbar lg:hidden bg-base-100 shadow-md sticky top-0 z-10">
       <div className="du-navbar-start">
-        <a href="#hero">
+        <a href="#hero1">
           <img src={logo} alt="logo" className="inline aspect-auto h-10" />
         </a>
       </div>

@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 export default function HeroMobile() {
   return (
     <>
-      <section id="hero" className="pt-5 block lg:hidden">
+      <section id="hero1" className="pt-5 block lg:hidden">
         <div className="du-hero bg-base-200">
           <div className="du-hero-content flex-col">
             <div className="max-w-md pt-2">

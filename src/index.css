@@ -4,3 +4,7 @@
   prefix: "du-";
   logs: true;
 }
+
+html {
+  scroll-behavior: smooth;
+}

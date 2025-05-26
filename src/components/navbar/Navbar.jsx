@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="hidden lg:du-navbar mx-auto rounded-full bg-base-100 md:max-w-screen-md xl:max-w-screen-lg sticky top-2 z-50 shadow-lg">
       <div className="flex-1">
-        <a href="/">
+        <a href="#hero">
           <img src={logo} alt="logo" className="inline aspect-auto h-10" />
         </a>
       </div>
