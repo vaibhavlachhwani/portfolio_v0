@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import DarkThemeComponentAlt from "./components/dark/DarkThemeComponentAlt";
 import NavbarMobile from "./components/navbar/NavbarMobile";
 import HeroMobile from "./components/hero/HeroMobile";
+import FadeInSection from "./components/FadeInSection";
 
 function App() {
   return (
@@ -17,12 +18,14 @@ function App() {
       <div className="bg-base-200">
         <Navbar />
         <NavbarMobile />
-        <Hero />
-        <HeroMobile />
-        <DarkThemeComponent child={<About />} />
-        <Skills />
-        <DarkThemeComponentAlt child={<Projects />} />
-        <Contact />
+        <FadeInSection children={<Hero />} />
+        <FadeInSection children={<HeroMobile />} />
+        <DarkThemeComponent child={<FadeInSection children={<About />} />} />
+        <FadeInSection children={<Skills />} />
+        <DarkThemeComponentAlt
+          child={<FadeInSection children={<Projects />} />}
+        />
+        <FadeInSection children={<Contact />} />
         <Footer />
       </div>
     </>

@@ -1,5 +1,6 @@
 import { SectionTitle } from "../SectionTitle";
 import SkillComponent from "./SkillComponent";
+import FadeInSection from "../FadeInSection";
 
 import code from "../../assets/images/skills/tab_icons/programming_languages.svg";
 import framework_svg from "../../assets/images/skills/tab_icons/frameworks.svg";
@@ -70,45 +71,50 @@ export default function Skills() {
     <div className="min-h-screen flex items-center justify-center">
       <section id="skills" className="pt-20">
         <SectionTitle text={"Tech Stack"} />
-        <div className="mx-8 lg:mx-auto">
-          <div className="mx-auto max-w-screen-lg du-tabs du-tabs-lift m-24">
-            <label className="du-tab">
-              <input type="radio" name="my_tabs_4" defaultChecked />
-              <img src={code} alt="" className="size-4 mx-3" />
-              Programming Languages
-            </label>
-            <div className="du-tab-content bg-base-100 border-base-300 p-6">
-              <SkillComponent skills={pl} />
-            </div>
 
-            <label className="du-tab">
-              <input type="radio" name="my_tabs_4" />
-              <img src={framework_svg} alt="" className="size-4 mx-3" />
-              Frameworks & Libraries
-            </label>
-            <div className="du-tab-content bg-base-100 border-base-300 p-6">
-              <SkillComponent skills={fw} />
-            </div>
+        <FadeInSection
+          children={
+            <div className="mx-8 lg:mx-auto">
+              <div className="mx-auto max-w-screen-lg du-tabs du-tabs-lift m-24">
+                <label className="du-tab">
+                  <input type="radio" name="my_tabs_4" defaultChecked />
+                  <img src={code} alt="" className="size-4 mx-3" />
+                  Programming Languages
+                </label>
+                <div className="du-tab-content bg-base-100 border-base-300 p-6">
+                  <SkillComponent skills={pl} />
+                </div>
 
-            <label className="du-tab">
-              <input type="radio" name="my_tabs_4" />
-              <img src={database_svg} alt="" className="size-4 mx-3" />
-              Databases
-            </label>
-            <div className="du-tab-content bg-base-100 border-base-300 p-6">
-              <SkillComponent skills={db} />
-            </div>
+                <label className="du-tab">
+                  <input type="radio" name="my_tabs_4" />
+                  <img src={framework_svg} alt="" className="size-4 mx-3" />
+                  Frameworks & Libraries
+                </label>
+                <div className="du-tab-content bg-base-100 border-base-300 p-6">
+                  <SkillComponent skills={fw} />
+                </div>
 
-            <label className="du-tab">
-              <input type="radio" name="my_tabs_4" />
-              <img src={tool_svg} alt="" className="size-4 mx-3" />
-              Tools & Platforms
-            </label>
-            <div className="du-tab-content bg-base-100 border-base-300 p-6">
-              <SkillComponent skills={tp} />
+                <label className="du-tab">
+                  <input type="radio" name="my_tabs_4" />
+                  <img src={database_svg} alt="" className="size-4 mx-3" />
+                  Databases
+                </label>
+                <div className="du-tab-content bg-base-100 border-base-300 p-6">
+                  <SkillComponent skills={db} />
+                </div>
+
+                <label className="du-tab">
+                  <input type="radio" name="my_tabs_4" />
+                  <img src={tool_svg} alt="" className="size-4 mx-3" />
+                  Tools & Platforms
+                </label>
+                <div className="du-tab-content bg-base-100 border-base-300 p-6">
+                  <SkillComponent skills={tp} />
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
+          }
+        />
       </section>
     </div>
   );
