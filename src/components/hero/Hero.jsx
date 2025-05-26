@@ -1,10 +1,10 @@
-import hero_img from "../assets/images/vaibhav_lachhwani/vaibhav_lachhwani.png";
+import hero_img from "../../assets/images/vaibhav_lachhwani/vaibhav_lachhwani.png";
 import { ReactTyped } from "react-typed";
 
 export default function Hero() {
   return (
     <>
-      <section id="hero" className="h-160 pt-20">
+      <section id="hero" className="h-160 hidden lg:block pt-20">
         <div className="du-hero bg-base-200">
           <div className="du-hero-content flex-col lg:flex-row space-x-5">
             <img src={hero_img} className="max-w-md rounded-full" />
