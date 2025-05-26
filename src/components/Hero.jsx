@@ -4,16 +4,16 @@ import { ReactTyped } from "react-typed";
 export default function Hero() {
   return (
     <>
-      <section id="hero">
-        <div className="du-hero bg-base-200 pt-2">
+      <section id="hero" className="h-160 pt-20">
+        <div className="du-hero bg-base-200">
           <div className="du-hero-content flex-col lg:flex-row space-x-5">
             <img src={hero_img} className="max-w-md rounded-full" />
             <div className="max-w-2xl">
               <div className="font-bold space-y-2">
-                <h1 className="text-5xl">Vaibhav Lachhwani</h1>
+                <h1 className="text-4xl">Vaibhav Lachhwani</h1>
 
-                <div className="min-h-64">
-                  <h1 className="text-9xl">
+                <div className="min-h-50">
+                  <h1 className="text-8xl">
                     <ReactTyped
                       strings={[
                         "fullstack developer",
