@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className="pt-20">
       <div className="du-hero bg-base-200">
         <div className="du-hero-content text-center">
           <div className="max-w-lg">
