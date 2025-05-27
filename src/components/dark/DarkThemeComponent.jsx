@@ -1,13 +1,18 @@
+import waveTop from "../../assets/images/wave_dividers/waveTop.svg";
+import waveBottom from "../../assets/images/wave_dividers/waveBottom.svg";
+
+import SectionDivider from "./SectionDivider";
+
 export default function DarkThemeComponent({ child }) {
   return (
     <>
-      <div className="w-full aspect-[12/1] bg-[url('src/assets/images/wave_dividers/waveTop.svg')] bg-no-repeat bg-cover bg-top"></div>
+      <SectionDivider pos={"top"} wave={waveTop} />
 
       <div data-theme="night" className="">
         {child}
       </div>
 
-      <div className="w-full aspect-[12/1] bg-[url('src/assets/images/wave_dividers/waveBottom.svg')] bg-no-repeat bg-cover bg-bottom"></div>
+      <SectionDivider pos={"bottom"} wave={waveBottom} />
     </>
   );
 }

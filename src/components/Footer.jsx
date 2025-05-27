@@ -1,13 +1,17 @@
+import wave from "../assets/images/wave_dividers/waveFooter.svg";
+
 import logo from "../assets/images/logo/logo-light.svg";
 import linkedin from "../assets/images/social/icon-linkedin.svg";
 import github from "../assets/images/social/icon-github.svg";
 import school from "../assets/images/social/icon-school.svg";
 import instagram from "../assets/images/social/icon-instagram.svg";
 
+import SectionDivider from "./dark/SectionDivider";
+
 export default function Footer() {
   return (
     <>
-      <div className="w-full aspect-[12/1] bg-[url('src/assets/images/wave_dividers/waveFooter.svg')] bg-no-repeat bg-cover bg-top"></div>
+      <SectionDivider pos={"top"} wave={wave} />
 
       <div data-theme="night">
         <footer className="du-footer mx-auto max-w-screen-lg du-footer-horizontal du-footer-center bg-base-100 text-base-content p-10">
