@@ -11,6 +11,7 @@ import DarkThemeComponentAlt from "./components/dark/DarkThemeComponentAlt";
 import NavbarMobile from "./components/navbar/NavbarMobile";
 import HeroMobile from "./components/hero/HeroMobile";
 import FadeInSection from "./components/FadeInSection";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <FadeInSection children={<Contact />} />
         <Footer />
       </div>
+      <Analytics />
     </>
   );
 }
