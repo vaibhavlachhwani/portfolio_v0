@@ -28,8 +28,8 @@ function App() {
         />
         <FadeInSection children={<Contact />} />
         <Footer />
+        <Analytics />
       </div>
-      <Analytics />
     </>
   );
 }
