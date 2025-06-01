@@ -7,7 +7,7 @@ export default function Hero() {
       <section id="hero" className="h-160 hidden lg:block pt-20">
         <div className="du-hero bg-base-200">
           <div className="du-hero-content flex-col lg:flex-row space-x-5">
-            <img src={hero_img} className="max-w-md rounded-full" />
+            <img src={hero_img} alt="Vaibhav Lachhwani" className="max-w-md rounded-full" />
             <div className="max-w-2xl">
               <div className="font-bold space-y-2">
                 <h1 className="text-4xl">Vaibhav Lachhwani</h1>

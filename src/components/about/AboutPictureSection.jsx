@@ -8,7 +8,7 @@ export default function AboutPictureSection() {
       <figure>
         <FadeInSection
           children={
-            <img src={img} className="rounded-full size-60 lg:size-80" />
+            <img src={img} alt="Vaibhav Lachhwani" className="rounded-full size-60 lg:size-80" />
           }
         />
       </figure>
